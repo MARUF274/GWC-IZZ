@@ -105,8 +105,21 @@ img{
     font-size: 20px;
     font-family: 'Noto Sans', sans-serif!important;
 }
-.footColor{
-    color: #FE251B;
+footer{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px!important;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+footer span{
+    color: #969696;
+    padding-top: 10px;
+}
+footer span .heartbeat.icon{
+    color: red;
+}
 }
 @media screen and (max-width: 540px){ /*responsive phone*/
 
