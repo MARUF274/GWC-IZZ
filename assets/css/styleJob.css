@@ -120,7 +120,6 @@ footer span{
 footer span .heartbeat.icon{
     color: red;
 }
-}
 @media screen and (max-width: 540px){ /*responsive phone*/
 
     img{
