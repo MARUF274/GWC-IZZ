@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navBar{
+    box-shadow: none!important;
+    border-bottom: none!important; /*remove shadow & border*/
+}
+.navTitle{
+    font-size: 24px;
+    color: #969696!important;
+    margin: -10px!important; /*Edit title (Griya Media Nusantara)*/
+}
+.navitem:hover, .navitem:focus{
+    border-bottom: 2px solid orange; /*hover & focus*/
+    color: orange!important;
+    background-color: rgba(156, 156, 156, 0.116)!important;
+}
+#dropDown .navitem:hover, .navitem:focus{
+    border-bottom: 2px solid orange; /*hover & focus*/
+    color: orange!important;
+    background-color: rgba(156, 156, 156, 0.116)!important;
+}
+.navitem{
+    color: #969696!important; /*navitem color*/
+}
+.title{
+    padding-top: 108px;
+    text-align: center;
+    font-size: 35px;
+    color: #FFA634; /*"Still Productive While Pandemic"*/
+}
+.text{
+    font-size: 13px;
+    text-align: center;
+    color: #969696;
+    font-weight: bold; /*"Come Join at Griya Media Nusantara"*/
+}
+img{
+    /* padding-top: 60px; */
+    width: 100%;
+}
+.aboutUs{
+    background-image: url('../img/bg1_mobile.png') !important;
+    background-size: cover !important;
+}
+.aboutUs .content{
+    padding-top: -20px;
+    font-size:22px;
+    text-align: center;
+}
+.aboutUs img{
+    width: 100%;
+}
+.aboutUs .header{
+    font-family: sans-serif;
+    padding-top: 160px;
+}
+.aboutUs .header span{
+    color: #FFA634;
+}
+.aboutUs .button:hover{
+    background: #FFA634;
+}
+.aboutUs .button{
+    margin-top: 50px;
+    color: Black;
+}
+.benefit{
+    height: 800px;
+    background-color: #ffecd4;
+}
+.benefit .container .header{
+    color: #FFA634;
+    font-size: 25px;
+    padding-top: 70px;
+}
+.benefit .container .column span{
+    font-size: 16px;
+    color: #969696;
+}
+.ourTeam .container{
+    display: flex;
+    height: 1650px;
+}
+
+.ourTeam .container .content{
+    margin-top: 70px;
+    margin-right: auto;
+    width: 40%;
+}
+.ourTeam .container .content .header{
+    font-family: sans-serif;
+}
+.ourTeam .container .content .header span{
+    color: #FFA634;
+    font-size: 24px;
+}
+.ourTeam .container .content span{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #969696;
+}
+.ourTeam .container .avatar{
+    margin-top: 70px;
+    margin-left: auto;
+    width: 60%;
+}
+.ourTeam .container .avatar .column{
+    margin-top: 30px;
+}
+.ourTeam .container .avatar .column .bg_avatar{
+    background: #FFE9CC;
+    box-shadow: 10px 0px 12px -5px rgb(126, 120, 120); 
+    border-radius: 15px;
+}
+.ourTeam .container .avatar .column .header{
+    margin-top: 10px;
+    color: #FFA634;
+}
+.ourTeam .container .avatar .column .sub.header{
+    margin-top: 0px;
+    color: #969696;
+}
+.ourTeam .container .avatar .column .button{
+    margin-top: 70px;
+    padding-top: 0px;
+    background: white;
+}
+.joinNow{
+    height: 350px;
+    background-attachment: fixed;
+    background-image: url('../img/table.jpg') !important;
+    background-size: cover !important;
+}
+.gelap{
+    background: #000;
+    height: 350px;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+    padding: 1px;
+}
+.joinNow .gelap .ten.wide.column{
+    margin-top: 50px;
+}
+.joinNow .gelap .four.wide.column{
+    display: flex;
+    justify-content: center;
+}
+.contactUs{
+    background:  #FFE9CC;
+}
+.contactUs .container{
+    /* display: flex; */
+    margin-top: -20px;
+    height: 500px;
+}
+.contactUs .container .image{
+    margin-right: auto;
+    margin-top: 20px;
+}
+.contactUs .container .content{
+    margin-top: 8   0px;
+    margin-left: auto;
+    text-align: center!important;
+}
+.contactUs .container .content .header span{
+    color: #FFA634;
+    font-size: 24px;
+}
+.contactUs .container .content span{
+    font-size: 18px;
+    color: #969696;
+}
+.contactUs .container .content .header.phone{
+    text-align: center!important;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.contactUs .container .content .header.envelope{
+    font-size: 22px;
+    text-align: center!important;
+}
+.contactUs .container .content .header.envelope .icon{
+    color: #FFA634;
+} 
+.contactUs .container .content .header.phone .icon{
+    color: #FFA634;
+}
+footer{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px!important;
+    height: 40px;
+    text-align: center;
+}
+footer span{
+    color: #969696;
+    padding-top: 10px;
+}
+footer span .heartbeat.icon{
+    color: red;
+}
+[class*="col-"]{width: 100%;}
+@media only screen and (min-width: 600px){ /*responsive tablets*/
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .title{
+        padding-top: 100px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .text{
+        text-align: center;
+        font-size: 14px;
+    }
+    img{
+        width: 100%;
+    }
+    .aboutUs{
+        background-image: url('../img/bg1.png') !important;
+    }
+    .aboutUs .content{
+        font-size: 30px;
+        text-align: center;
+    }
+    .aboutUs img{
+        width: 100%;
+    }
+    .aboutUs .header{
+        font-family: sans-serif;
+        /* padding-top: 10px; */
+    }
+    .aboutUs .button:hover{
+        background: #FFA634;
+    }
+    .aboutUs .button{
+        color: Black;
+    }
+    .benefit{
+        height: 750px;
+        background-color: #ffecd4;
+    }
+    .ourTeam .container{
+        display: flex;
+        height: 2700px;
+    }
+
+    .ourTeam .container .content{
+        margin-top: 70px;
+        margin-right: auto;
+        width: 40%;
+    }
+    .ourTeam .container .content .header{
+        font-family: sans-serif;
+    }
+    .ourTeam .container .content .header span{
+        color: #FFA634;
+        font-size: 24px;
+    }
+    .ourTeam .container .content span{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        color: #969696;
+    }
+    .ourTeam .container .avatar{
+        margin-top: 70px;
+        margin-left: auto;
+        width: 60%;
+    }
+    .ourTeam .container .avatar .column{
+        margin-top: 30px;
+    }
+    .ourTeam .container .avatar .column .bg_avatar{
+        background: #FFE9CC;
+        box-shadow: 10px 0px 12px -5px rgb(126, 120, 120); 
+        border-radius: 15px;
+    }
+    .ourTeam .container .avatar .column .header{
+        margin-top: 10px;
+        color: #FFA634;
+    }
+    .ourTeam .container .avatar .column .sub.header{
+        margin-top: 0px;
+        color: #969696;
+    }
+    .ourTeam .container .avatar .column .button{
+        margin-top: 70px;
+        padding-top: 0px;
+        background: white;
+    }
+    .joinNow{
+        position: static;
+        height: 350px;
+        background-attachment: fixed;
+        background-image: url('../img/table.jpg') !important;
+        background-size: cover !important;
+    }
+    .gelap{
+        background: #000;
+        height: 350px;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.5;
+        padding: 1px;
+    }
+    .joinNow .gelap .ten.wide.column{
+        margin-top: 50px;
+    }
+    .contactUs{
+        background:  #FFE9CC;
+    }
+    .contactUs .container{
+        /* display: flex; */
+        margin-top: -20px;
+        height: 750px;
+    }
+    .contactUs .container .image{
+        margin-right: auto;
+    }
+    .contactUs .container .content{
+        margin-left: auto;
+        text-align: center!important;
+    }
+    .contactUs .container .content .header span{
+        color: #FFA634;
+        font-size: 24px;
+    }
+    .contactUs .container .content span{
+        font-size: 18px;
+        color: #969696;
+    }
+    .contactUs .container .content .header.phone{
+        text-align: center!important;
+        margin-top: 30px;
+    }
+    .contactUs .container .content .header.envelope{
+        text-align: center!important;
+    }
+    .contactUs .container .content .header.envelope .icon{
+        color: #FFA634;
+    } 
+    .contactUs .container .content .header.phone .icon{
+        color: #FFA634;
+    }
+    footer{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px!important;
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer span{
+        color: #969696;
+    }
+    footer span .heartbeat.icon{
+        color: red;
+    }
+}
+@media only screen and (min-width: 768px){ /*responsive desktop*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .title{
+        padding-top: 110px;
+        font-size: 45px;
+        text-align: right;
+    }
+    .text{
+        font-size: 16px;
+        text-align: right;
+    }
+    .aboutUs{
+        background-image: url('../img/bg1.png') !important;
+    }
+    .aboutUs .content{
+        font-size: 35px;
+        text-align: center;
+    }
+    .aboutUs img{
+        width: 100%;
+    }
+    .aboutUs .header{
+        font-family: sans-serif;
+        /* padding-top: 10px; */
+    }
+    .aboutUs .button:hover{
+        background: #FFA634;
+    }
+    .aboutUs .button{
+        color: Black;
+    }
+    .benefit{
+        height: 350px;
+        background-color: #ffecd4;
+    }
+    .benefit .container .header{
+        color: #FFA634;
+        font-size: 28px;
+        padding-top: 80px;
+    }
+    .benefit .container .column span{
+        font-size: 16px;
+        color: #969696;
+    }
+    .benefit .container .column .header img{
+        width: 70px;
+    }
+    .ourTeam .container{
+        display: flex;
+        height: 700px;
+    }
+
+    .ourTeam .container .content{
+        margin-top: 70px;
+        margin-right: auto;
+        width: 20%;
+    }
+    .ourTeam .container .content .header{
+        font-family: sans-serif;
+    }
+    .ourTeam .container .content .header span{
+        color: #FFA634;
+        font-size: 24px;
+    }
+    .ourTeam .container .content span{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        color: #969696;
+    }
+    .ourTeam .container .avatar{
+        margin-top: 40px;
+        margin-left: auto;
+        width: 60%;
+    }
+    .ourTeam .container .avatar .column{
+        margin-top: 30px;
+    }
+    .ourTeam .container .avatar .column .bg_avatar{
+        background: #FFE9CC;
+        box-shadow: 10px 0px 12px -5px rgb(126, 120, 120); 
+        border-radius: 15px;
+    }
+    .ourTeam .container .avatar .column .header{
+        margin-top: 10px;
+        color: #FFA634;
+    }
+    .ourTeam .container .avatar .column .sub.header{
+        margin-top: 0px;
+        color: #969696;
+    }
+    .ourTeam .container .avatar .column .button{
+        margin-top: 70px;
+        padding-top: 0px;
+        background: white;
+    }
+    .joinNow{
+        height: 350px;
+        background-attachment: fixed;
+        background-image: url('../img/table.jpg') !important;
+        background-size: cover !important;
+    }
+    .gelap{
+        background: #000;
+        height: 350px;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.5;
+        padding: 1px;
+    }
+    .joinNow .gelap .ten.wide.column{
+        margin-top: 50px;
+    }
+    .joinNow .gelap .four.wide.column{
+        margin-top: 160px;
+    }
+    .contactUs{
+        background:  #FFE9CC;
+    }
+    .contactUs .container{
+        display: flex;
+        height: 500px;
+        margin-top: 0px;
+    }
+    .contactUs .container .image{
+        margin-right: auto;
+        margin-top: 70px;
+        width: 50%;
+    }
+    .contactUs .container .content{
+        margin-top: 100px;
+        margin-left: auto;
+        width: 50%;
+        text-align: center!important;
+    }
+    .contactUs .container .content .header span{
+        color: #FFA634;
+        font-size: 24px;
+    }
+    .contactUs .container .content span{
+        font-size: 18px;
+        color: #969696;
+    }
+    .contactUs .container .content .header.phone{
+        text-align: left!important;
+        margin-top: 90px;
+    }
+    .contactUs .container .content .header.envelope{
+        text-align: left!important;
+    }
+    .contactUs .container .content .header.envelope .icon{
+        color: #FFA634;
+    } 
+    .contactUs .container .content .header.phone .icon{
+        color: #FFA634;
+    }
+    footer{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px!important;
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer span{
+        color: #969696;
+    }
+    footer span .heartbeat.icon{
+        color: red;
+    }
+}

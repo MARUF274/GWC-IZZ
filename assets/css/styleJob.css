@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin-top: 0%;
+    padding: 0%;
+}
+body{
+    background:#FFE9CC;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+#navBar{
+    box-shadow: none!important;
+    border-bottom: none!important; /*remove shadow & border*/
+}
+.navTitle{
+    font-size: 24px;
+    margin: -10px!important; /*Edit title (Griya Media Nusantara)*/
+}
+.navitem:hover, .navitem:focus{
+    border-bottom: 2px solid orange; /*hover & focus*/
+    color: black!important;
+    background-color: rgba(156, 156, 156, 0.116)!important;
+}
+.active{
+    border-bottom: 2px solid orange; /*active*/
+    color: black;
+}
+.navitem{
+    color: #969696!important; /*navitem color*/
+}
+img{
+    width: 100%;
+    margin-top: 50px;
+}
+.btnGroup{
+    margin-top: 30px;
+}
+.btnJoin{
+    margin: 12px 4.8% 0 4.8%!important; 
+    width: 90%!important;
+    border-radius: 30px!important;
+}
+.btnDetails{
+    margin: 6px 4.8%!important; 
+    width: 90%!important;
+    border-radius: 30px!important;
+}
+.btnDetails{
+    background-color: #fff!important;
+    color: #f2711c!important;
+}
+.columnContent{
+    background-color: #FFCF90; 
+    border-radius: 30px;
+    margin: 10px;
+    height: 240px;
+    box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.3);
+    border: 1.2px solid rgba(0, 0, 0, 0.15);
+}
+.ui[class*="two column"].grid>.column:not(.row), .ui[class*="two column"].grid>.row>.column{
+    width: 47.2%!important;
+}
+.ui.header{
+    font-family: 'Noto Sans', sans-serif!important;
+    font-size: 40px!important;
+}
+.headArticle{
+    background-color:rgba(255, 255, 255, 0)!important;
+    border: none!important;
+    font-size: 9vh!important;
+    font-family: 'Noto Sans', sans-serif!important;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.foot{
+    margin-top: 20px; 
+    text-align: center;
+    background-color: #fff;
+    padding: 12px;
+}
+.ui[class*="very padded"].segment{
+    padding: 1.5em!important;
+}
+.articleJob{
+    border-radius: 20%;
+    background: #FFD296!important;
+    max-width: 1200px!important;
+}
+.articleJob > li{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif!important;
+}
+.applyJob{
+    border-radius: 20%;
+    background: #FFD296!important;
+    max-width: 500px!important;
+}
+.applyJob > li{
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif!important;
+}
+.footColor{
+    color: #FE251B;
+}
+@media screen and (max-width: 540px){ /*responsive phone*/
+
+    img{
+        margin-top: 69px;
+        width: 100%;
+    }
+    .mobileNav, #navBar{
+        width: 100%!important;
+    }
+    .ui[class*="two column"].grid>.column:not(.row), .ui[class*="two column"].grid>.row>.column{
+        width: 100%!important;
+    }
+    .columnContent{
+        background-color: #FFCF90; 
+        border-radius: 30px;
+        margin: 5px 18px!important;
+        margin-top: 20px!important;
+    }
+    .header{
+        font-size: 4vh!important;
+    }
+    .title{
+        font-size: 3.3vh!important;
+    }
+    .headArticle{
+        font-size: 7vh!important;
+    }
+    .ui.header{
+        font-family: 'Noto Sans', sans-serif!important;
+        font-size: 25px!important;
+    }
+    .articleJob > li{
+        margin-left: 0px;
+        font-size: 12px;
+        margin:2px 0;
+        text-align: left;
+    }
+    .btnJoin{
+        margin-left: 2.5vh!important;
+    }
+    .foot > h3{
+        margin-top: 0px; 
+        text-align: center;
+        font-size: 2.3vh;
+    }
+
+    
+}
