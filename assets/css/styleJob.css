@@ -69,7 +69,7 @@ img{
 .headArticle{
     background-color:rgba(255, 255, 255, 0)!important;
     border: none!important;
-    font-size: 9vh!important;
+    font-size: 5vw!important;
     font-family: 'Noto Sans', sans-serif!important;
     text-align: center;
 }
@@ -123,7 +123,7 @@ footer span .heartbeat.icon{
 @media screen and (max-width: 540px){ /*responsive phone*/
 
     img{
-        margin-top: 69px;
+        margin-top: 15vh;
         width: 100%;
     }
     .mobileNav, #navBar{
@@ -139,7 +139,7 @@ footer span .heartbeat.icon{
         margin-top: 20px!important;
     }
     .header{
-        font-size: 4vh!important;
+        font-size: 3.5vh!important;
     }
     .title{
         font-size: 3.3vh!important;
